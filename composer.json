@@ -1,0 +1,22 @@
+{
+    "name": "phpanatic/blog_2023_11_07_zakaria_moukit",
+    "description": "Blog web application using PHP and MySQL",
+    "authors": [
+        {
+            "name": "Zakaria Moukit",
+            "email": "zmoukit233@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Models\\" : "models/",
+            "Views\\" : "views/",
+            "Controllers\\" : "controllers/",
+            "Core\\": "core/",
+            "Runtime\\": "runtime/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
